@@ -1,0 +1,71 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  background-color: hsl(240, 21%, 10%);
+}
+
+h1{
+  padding-top: 5%;
+  color: white;
+}
+
+.calculatrice{
+  margin: 5% auto;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: hsl(244, 20%, 15%);
+  border: 1px white solid;
+}
+
+input{
+  height: 60px;
+  width: 100%;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+}
+
+button{
+  width: 60px;
+  height: 60px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: hsl(240, 21%, 10%);
+  background-color: white;
+  margin: 5px;
+  font-size: 22px;
+}
+
+button:active{
+  position: relative;
+  bottom: -6px;
+}
+
+.button{
+  width: 100%;
+}
+
+.reset{
+  width: 98%;
+  margin: 0;
+  margin-top: 5px;
+}
