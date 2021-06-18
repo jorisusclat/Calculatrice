@@ -31,7 +31,6 @@ const calculatrice = (event) =>{
         screen.value = "Please type a valid operation";
       } else{
         screen.value = equal;
-        console.log(screen.value)
       };
     break;
     default:
